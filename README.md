@@ -30,9 +30,12 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1 | |  |  |
-
-
+| 1.1  | Das Programm stellt eine Frage die Länge der Strecke einzugeben und fährt fort.| Eingabe Kilometeranzahl| Wechsel zur nächsten Frage|
+| 2.1  | Das Programm fragt nach Eingabe des Start- und Endpunktes des Weges| Eingabe Start- und Endpunkt| Wechsel zur nächsten Frage| 
+| 3.1  | Das Programm fragt welches Transportmittel der Benutzer auswählen will.| Eingabe ausgewähltes Transportmittel| Wechsel zu den Antworten| 
+| 3.2  | Das gewünschte Transportmittel wurde eingegeben| Gewünschtes Transportmittel| Kosten der Strecke|
+| 3.3  | Das gewünschte Transportmittel wurde eingegeben| Gewünschtes Transportmittel| Zeit der Fahrt pro Verkehrsmittel|
+| 3.4  | Das gewünschte Transportmittel wurde eingegeben| Gewünschtes Transportmittel| Kosten der angegebene Strecke per ÖV|
 
 ### 1.4 Diagramme
 
@@ -42,7 +45,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A |   |  | |  |
+| 1.A  | 5.12.2022| Greub, Manser, Evans| Erstellung der Formel zur Berechnung der Wegkosten der einzelnen Transportmittel| 70'  | 
 
 
 ## 3) Entscheiden
@@ -52,7 +55,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |      |          |              |                |
+| 1.A  | 29.09.2022|          |              |                |
 
 
 
