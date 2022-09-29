@@ -66,7 +66,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 
 **Fazit**
-Das Programm funktioniert ohne Fehler, bis auf Punkt 3.1. Dies stellt jedoch kein grösseres Problem dar, da bei einer ungültigen Eingabe trotzdem ausgegeben wird, ob die Zahl grösser oder kleiner war und das Programm deshalb nicht abstürtzt.
+
 
 ### 5.2 Exploratives Testen
 
