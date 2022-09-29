@@ -36,7 +36,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 ### 1.4 Diagramme
 
-![image](https://user-images.githubusercontent.com/110885770/186120544-16da8c55-7ade-41ec-949f-d49fdae423c2.png)
+
 
 ## 2) Planen
 
