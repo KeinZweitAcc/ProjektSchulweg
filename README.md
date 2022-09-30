@@ -4,7 +4,7 @@ Greub Manuel
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|  26.09.22     |  0.0.1       |      - Erste Projekt-Dokumentation erstellen      |
+|  29.09.22 |  0.0.1 | Wir haben mit dem Auftrag angefangen und einen Teil schon fertig gemacht.|         
 
 
 ## 1) Informieren
@@ -45,8 +45,8 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | 5.12.2022| Greub, Manser, Evans| Erstellung der Formel zur Berechnung der Wegkosten der einzelnen Transportmittel| 70'  | 
-
+| 1.A  | 5.12.2022| Greub, Manser, Evans| Erstellung der Formel zur Berechnung der Wegkosten der einzelnen Transportmittel| 70' | 
+| 2.a  | 5.12.2022| Greub, Manser, Evans| 
 
 ## 3) Entscheiden
 
@@ -55,8 +55,8 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 29.09.2022|          |              |                |
-
+| 1.A  | 29.09.2022| Greub, Manser, Evans| 70'| 90'|
+| 2.A  | 29.09.2022| 
 
 
 ## 5) Kontrollieren
