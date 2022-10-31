@@ -45,8 +45,9 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | 5.12.2022| Greub, Manser, Evans| Erstellung der Formel zur Berechnung der Wegkosten der einzelnen Transportmittel| 70' | 
-| 2.a  | 5.12.2022| Greub, Manser, Evans| 
+| 1.A  | 5.12.2022| Greub | Erstellung der Formel zur Berechnung der Wegkosten der einzelnen Transportmittel| 70' | 
+| 2.A  | 5.12.2022| Manser, Evans | Das Basic Programm erstellen | 80' |
+| 3.A  | 5.12.2022| Greub | Einteilung des Programms in Funktionen| 60' |
 
 ## 3) Entscheiden
 
@@ -55,8 +56,9 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 29.09.2022| Greub, Manser, Evans| 70'| 90'|
-| 2.A  | 29.09.2022| 
+| 1.A  | 29.09.2022| Greub | 70'| 90'|
+| 2.A  | 29.09.2022| Manser, Evans | 80' | 70' |
+| 3.A  | 31.10.2022| Greub | 60
 
 
 ## 5) Kontrollieren
