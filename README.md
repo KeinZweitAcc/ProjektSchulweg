@@ -5,6 +5,7 @@ Greub Manuel
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |  29.09.22 |  0.0.1 | Wir haben mit dem Auftrag angefangen und einen Teil schon fertig gemacht.|         
+|  07.11.22 |  0.0.1 | Wir haben Azure Maps kennengelernt und mit diesem weitergearbeitet|
 
 
 ## 1) Informieren
