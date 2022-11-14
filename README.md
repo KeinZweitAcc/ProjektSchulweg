@@ -5,11 +5,11 @@ Greub Manuel
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |  29.09.22 |  0.0.1 | Wir haben mit dem Auftrag angefangen und einen Teil schon fertig gemacht.|         
-|  07.11.22 |  0.0.1 | Wir haben Azure Maps kennengelernt und mit diesem weitergearbeitet|
+|  07.11.22 |  0.0.2 | Wir haben Azure Maps kennengelernt und mit diesem weitergearbeitet|
+|  14.11.22 |  0.0.3 | Wir haben heute an dem Programm weitergearbeitet 
 
 
 ## 1) Informieren
-Wir
     
 
 ### 1.1 Ihr Projekt
