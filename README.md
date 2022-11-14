@@ -10,6 +10,8 @@ Greub Manuel
 
 ## 1) Informieren
 
+    
+
 ### 1.1 Ihr Projekt
 
 In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die Informationen der Länge und des Verkehrsmittels, die Kosten für den eigenen Schulweg berechnet
@@ -26,6 +28,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 | 6 | Kann | Funktional | Es sollen die Kosten für die angegebene Strecke per ÖV berechnet werden. | 
 
 
+[Final_ProjektSchulwegInformieren.docx](https://github.com/KeinZweitAcc/ProjektSchulweg/files/10002938/Final_ProjektSchulwegInformieren.docx)
 
 ### 1.3 Testfälle
 
