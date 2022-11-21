@@ -66,7 +66,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |
+| 1.A  | 29.09.2022 - 05.12.2022| Bis am Ende des Auftrags| 
 | 2.A  | 29.09.2022| Greub | 70'| 60'|
 | 3.A  | 6.09.2022| Manser, Evans | 60'| 60' |
 | 4.A  | 31.10.2022| Greub | 60'| 40'|
