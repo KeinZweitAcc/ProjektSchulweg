@@ -51,9 +51,13 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | 5.12.2022| Greub | Erstellung der Formel zur Berechnung der Wegkosten der einzelnen Transportmittel| 70' | 
-| 2.A  | 5.12.2022| Manser, Evans | Das Basic Programm erstellen | 80' |
-| 3.A  | 5.12.2022| Greub | Einteilung des Programms in Funktionen| 60' |
+| 1.A  | 5.12.2022| Evans| Erstellung der Projektdokumentation (Wird während des erledigen des Auftrages aktualisiert)| 
+| 2.A  | 5.12.2022| Greub | Erstellung der Formel zur Berechnung der Wegkosten der einzelnen Transportmittel| 70' | 
+| 3.A  | 5.12.2022| Manser, Evans| Erstellung des Alpha Programmes| 60' | 
+| 4.A  | 5.12.2022| Greub | Einteilung des Programms in Funktionen| 60' |
+| 5.A  | 5.12.2022| Manser, Greub| Integrierung von dem Azure Maps System| 80'| 
+| 6.A  | 5.12.2022| 
+
 
 ## 3) Entscheiden
 * ÖV konnten wir Leider nicht realisieren da eine Verknüpfung an die SBB Datenbank nicht möglich war
@@ -62,9 +66,9 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 29.09.2022| Greub | 70'| 90'|
-| 2.A  | 29.09.2022| Manser, Evans | 80' | 70' |
-| 3.A  | 31.10.2022| Greub | 60
+| 2.A  | 29.09.2022| Greub | 70'| 60'|
+| 3.A  | 29.09.2022| Manser, Evans | 60'| 60' |
+| 4.A  | 31.10.2022| Greub | 60'| 40'|
 
 
 ## 5) Kontrollieren
