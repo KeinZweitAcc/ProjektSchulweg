@@ -5,8 +5,8 @@ Greub Manuel
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |  29.09.22 |  0.0.1 | Wir haben mit dem Auftrag angefangen und einen Teil schon fertig gemacht.|         
-|  07.11.22 |  0.0.2 | Wir haben Azure Maps kennengelernt und mit diesem weitergearbeitet|
-|  14.11.22 |  0.0.3 | Wir haben heute an dem Programm weitergearbeitet 
+|  07.11.22 |  0.0.2 | Wir haben Azure Maps kennengelernt und mit diesem weitergearbeitet.|
+|  14.11.22 |  0.0.3 | Wir haben heute an dem Programm weitergearbeitet.|
 
 
 ## 1) Informieren
@@ -56,7 +56,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 | 3.A  | 5.12.2022| Manser, Evans| Erstellung des Alpha Programmes| 60' | 
 | 4.A  | 5.12.2022| Greub | Einteilung des Programms in Funktionen| 60' |
 | 5.A  | 5.12.2022| Manser, Greub| Integrierung von dem Azure Maps System| 80'| 
-| 6.A  | 5.12.2022| 
+| 6.A  | 5.12.2022| Evans, Greub| Code verschönern und allfällige Probleme verbessern| 30'|
 
 
 ## 3) Entscheiden
@@ -66,10 +66,12 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
+| 1.A  |
 | 2.A  | 29.09.2022| Greub | 70'| 60'|
-| 3.A  | 29.09.2022| Manser, Evans | 60'| 60' |
+| 3.A  | 6.09.2022| Manser, Evans | 60'| 60' |
 | 4.A  | 31.10.2022| Greub | 60'| 40'|
-
+| 5.A  | 07.11.2022 - 14.11.2022| 80'| 120'|
+| 6.A  | 21.11.2022| 
 
 ## 5) Kontrollieren
 
