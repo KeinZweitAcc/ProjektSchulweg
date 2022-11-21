@@ -1,8 +1,15 @@
-﻿namespace Schulweg
+﻿using Azure;
+using Azure.Core.GeoJson;
+using Azure.Maps.Routing;
+using Azure.Maps.Routing.Models;
+using Azure.Maps.Search;
+using Azure.Maps.Search.Models;
+
+namespace Schulweg
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             bool repeat = true;
             String Fahrzeug = "";
@@ -19,16 +26,24 @@
                 {
                     try
                     {
-                        Console.ForegroundColor = ConsoleColor.Cyan;
+                        Console.ForegroundColor = ConsoleColor.White;
                         eingabe = false;
-                        Console.Write("Wie lange ist Ihr Schulweg in km? ");
-                        double wegLänge = Convert.ToDouble(Console.ReadLine());
+
+                        Console.Write("Wie lautet Ihr Wohnort? ");
+                        string wohnort = Console.ReadLine();
+
+                        Console.Write("Wie lautet Ihr Zielort? ");
+                        string zielort = Console.ReadLine();
+
+                        double wegLänge = await BerechneDistanzAsync(wohnort, zielort);
+
                         eingabe = true;
 
                         switch (Fahrzeug.ToLower())
                         {
                             case "töff":
                             case "toeff":
+                                Console.ForegroundColor = ConsoleColor.White;
                                 Console.Write("Wie teuer ist ihr Töff? ");
                                 double Preis = Convert.ToDouble(Console.ReadLine());
                                 eingabe2 = true;
@@ -42,6 +57,7 @@
                                 break;
 
                             case "auto":
+                                Console.ForegroundColor = ConsoleColor.White;
                                 Console.Write("Wie viel kostet das Auto? ");
                                 double autoPreis = Convert.ToDouble(Console.ReadLine());
                                 eingabe2 = true;
@@ -58,6 +74,7 @@
 
                             case "evelo":
                             case "elektrovelo":
+                                Console.ForegroundColor = ConsoleColor.White;
                                 Console.Write("Wie viel kostet ihr ElektroVelo? ");
                                 double kosten = Convert.ToDouble(Console.ReadLine());
                                 eingabe2 = true;
@@ -75,7 +92,7 @@
                         }
 
                     }
-                    catch
+                    catch (Exception ex)
                     {
 
                         Console.ForegroundColor = ConsoleColor.Red;
@@ -90,7 +107,7 @@
 
                 repeat = Repeat();
 
-                
+
             }
 
         }
@@ -101,9 +118,23 @@
             {
                 try
                 {
-                    Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.Write("Mit welchem Transportmittel wollen sie zur Schule fahren? [Töff/Auto/Elektrovelo] ");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("Mit welchem Transportmittel wollen sie zur Schule fahren? [");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("Auto");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("/");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write("Töff");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("/");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.Write("Evelo");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("] ");
+
                     Fahrzeug = Console.ReadLine();
+                    Console.WriteLine("----------------------------------------------------------------------------------------------");
                     switch (Fahrzeug.ToLower())
                     {
                         case "töff":
@@ -118,13 +149,15 @@
                             break;
                     }
 
-                    Console.WriteLine("----------------------------------------------------------------------------------------------");
+                    
 
                 }
                 catch
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Diese eingabe ist ungültig");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine("----------------------------------------------------------------------------------------------");
                     Console.ResetColor();
                 }
             }
@@ -144,10 +177,19 @@
                 try
                 {
 
-                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.ForegroundColor = ConsoleColor.White;
                     repeat = false;
                     Console.WriteLine("----------------------------------------------------------------------------------------------");
-                    Console.Write("Wollen sie ein anderes Fahrzeug nutzen? [true/false] ");
+                    Console.Write("Wollen sie ein anderes Fahrzeug nutzen? [");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.Write("true");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("/");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("false");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("] ");
+
                     repeat = Convert.ToBoolean(Console.ReadLine());
                     Console.WriteLine("----------------------------------------------------------------------------------------------");
                     eingabe = true;
@@ -163,6 +205,35 @@
             while (eingabe == false);
 
             return repeat;
+        }
+        static async Task<double> BerechneDistanzAsync(string wohnort, string zielort)
+        {
+            wohnort += ", Schweiz";
+            zielort += ", Schweiz";
+            AzureKeyCredential credential = new AzureKeyCredential("EMBpFvkjHh1SrKTb16bVYz35-rzqxoY4MWyvdhTFbc4");
+            MapsSearchClient searchClient = new MapsSearchClient(credential);
+            MapsRoutingClient routingClient = new MapsRoutingClient(credential);
+            Response<SearchAddressResult> badenResult = await searchClient.SearchAddressAsync(zielort);
+            Response<SearchAddressResult> zuhauseResult = await searchClient.SearchAddressAsync(wohnort);
+
+            List<GeoPosition> routePoints = new List<GeoPosition>()
+            {
+                badenResult.Value.Results[0].Position,
+                zuhauseResult.Value.Results[0].Position
+            };
+
+            RouteDirectionQuery query = new RouteDirectionQuery(routePoints);
+            Response<RouteDirections> result = routingClient.GetDirections(query);
+
+            double wegLänge = (int)result.Value.Routes[0].Summary.LengthInMeters;
+            wegLänge /= 1000;
+
+            Console.WriteLine("Distanz in Kilometer: " + wegLänge);
+            Console.WriteLine("Reisezeit: " + result.Value.Routes[0].Summary.TravelTimeDuration);
+            Console.WriteLine("----------------------------------------------------------------------------------------------");
+
+            return wegLänge;
+
         }
     }
 }
