@@ -39,6 +39,9 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 | 3.2  | Das gewünschte Transportmittel wurde eingegeben| Gewünschtes Transportmittel| Kosten der Strecke|
 | 3.3  | Das gewünschte Transportmittel wurde eingegeben| Gewünschtes Transportmittel| Zeit der Fahrt pro Verkehrsmittel|
 | 3.4  | Das gewünschte Transportmittel wurde eingegeben| Gewünschtes Transportmittel| Kosten der angegebene Strecke per ÖV|
+| 4.1  | Alle nötigen eingaben wurden getätigt | nichts | Mit dem Töff werden sie pro Kilometer 0,0000081 Fr kosten |
+| 5.1  | Fahrzeug wurde ausgewählt | Baden Zürich | Reisezeit: 00:45:00 |
+
 
 ### 1.4 Diagramme
 
@@ -53,7 +56,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 | 3.A  | 5.12.2022| Greub | Einteilung des Programms in Funktionen| 60' |
 
 ## 3) Entscheiden
-
+* ÖV konnten wir Leider nicht realisieren da eine Verknüpfung an die SBB Datenbank nicht möglich war
 
 ## 4) Realisieren
 
