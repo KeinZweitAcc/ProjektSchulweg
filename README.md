@@ -1,6 +1,6 @@
 # Projekt-Dokumentation
 
-Greub Manuel
+Greub Manuel, Evans Tristan, Manser Alberto
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -55,12 +55,12 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 | 2.A  | 5.12.2022| Greub | Erstellung der Formel zur Berechnung der Wegkosten der einzelnen Transportmittel| 70' | 
 | 3.A  | 5.12.2022| Manser, Evans| Erstellung des Alpha Programmes| 60' | 
 | 4.A  | 5.12.2022| Greub | Einteilung des Programms in Funktionen| 60' |
-| 5.A  | 5.12.2022| Manser, Greub| Integrierung von dem Azure Maps System| 80'| 
+| 5.A  | 5.12.2022| Manser, Greub, Evans| Integrierung von dem Azure Maps System| 80'| 
 | 6.A  | 5.12.2022| Evans, Greub| Code verschönern und allfällige Probleme verbessern| 30'|
 
 
 ## 3) Entscheiden
-* ÖV konnten wir Leider nicht realisieren da eine Verknüpfung an die SBB Datenbank nicht möglich war
+* ÖV konnten wir Leider nicht realisieren, da eine Verknüpfung an die SBB Datenbank nicht möglich war.
 
 ## 4) Realisieren
 
@@ -70,8 +70,8 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 | 2.A  | 29.09.2022| Greub | 70'| 60'|
 | 3.A  | 6.09.2022| Manser, Evans | 60'| 60' |
 | 4.A  | 31.10.2022| Greub | 60'| 40'|
-| 5.A  | 07.11.2022 - 14.11.2022| 80'| 120'|
-| 6.A  | 21.11.2022| 
+| 5.A  | 07.11.2022 - 21.11.2022| Manser, Greub, Evans| 80'| 120'|
+| 6.A  | 28.11.2022| 30'|  | 
 
 ## 5) Kontrollieren
 
