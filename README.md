@@ -8,7 +8,7 @@ Greub Manuel, Evans Tristan, Manser Alberto
 |  07.11.22 |  0.0.2 | Wir haben Azure Maps kennengelernt und mit diesem weitergearbeitet.|
 |  14.11.22 |  0.0.3 | Wir haben heute an dem Programm weitergearbeitet.|
 |  21.11.22 |  0.0.4 | Wir haben am Programm weitergearbeitet und wir sind fast fertig.|
-|  28.11.22 |  1.0.0 | Das Programm ist fertig und kann noch verbessert werden.|
+|  28.11.22 |  1.0.0 | Das Programm ist fertig, aber kann noch verbessert werden.|
 
 
 ## 1) Informieren
