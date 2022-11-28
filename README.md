@@ -7,6 +7,8 @@ Greub Manuel, Evans Tristan, Manser Alberto
 |  29.09.22 |  0.0.1 | Wir haben mit dem Auftrag angefangen und einen Teil schon fertig gemacht.|         
 |  07.11.22 |  0.0.2 | Wir haben Azure Maps kennengelernt und mit diesem weitergearbeitet.|
 |  14.11.22 |  0.0.3 | Wir haben heute an dem Programm weitergearbeitet.|
+|  21.11.22 |  0.0.4 | Wir haben am Programm weitergearbeitet und wir sind fast fertig.|
+|  28.11.22 |  1.0.0 | Das Programm ist fertig und kann noch verbessert werden.|
 
 
 ## 1) Informieren
@@ -45,6 +47,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 ### 1.4 Diagramme
 
+![LA_ProjektSchulwegPAP](https://user-images.githubusercontent.com/110893008/204314242-ad20216b-b7aa-43fd-85a2-92d29321ce51.png)
 
 
 ## 2) Planen
