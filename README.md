@@ -35,7 +35,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Das Programm stellt eine Frage die Länge der Strecke einzugeben und fährt fort.| Eingabe Wohn und Zielort| Wechsel zur nächsten Frage|
+| 1.1  | Das Programm stellt eine Frage die Länge der Strecke einzugeben und fährt fort.| Eingabe Kilometeranzahl| Wechsel zur nächsten Frage|
 | 2.1  | Das Programm fragt nach Eingabe des Start- und Endpunktes des Weges| Eingabe Start- und Endpunkt| Wechsel zur nächsten Frage| 
 | 3.1  | Das Programm fragt welches Transportmittel der Benutzer auswählen will.| Eingabe ausgewähltes Transportmittel| Wechsel zu den Antworten| 
 | 3.2  | Das gewünschte Transportmittel wurde eingegeben| Gewünschtes Transportmittel| Kosten der Strecke|
@@ -47,7 +47,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 ### 1.4 Diagramme
 
-![LA_ProjektSchulwegPAP](https://user-images.githubusercontent.com/110893008/204314242-ad20216b-b7aa-43fd-85a2-92d29321ce51.png)
+![LA_ProjektSchulwegPAP](https://user-images.githubusercontent.com/110893008/204315332-3ed4d224-6c02-40a0-a937-7737fc0bbcaf.png)
 
 
 ## 2) Planen
@@ -97,4 +97,3 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 
 ## 6) Auswerten
-
