@@ -75,7 +75,7 @@ namespace Schulweg
                             case "evelo":
                             case "elektrovelo":
                                 Console.ForegroundColor = ConsoleColor.White;
-                                Console.Write("Wie viel kostet ihr ElektroVelo? ");
+                                Console.Write("Wie viel kostet ihr Elektrovelo? ");
                                 double kosten = Convert.ToDouble(Console.ReadLine());
                                 eingabe2 = true;
                                 double längePreis = 0.3 * wegLänge;
@@ -83,7 +83,7 @@ namespace Schulweg
                                 double Akku = 1000 / 60000;
                                 double kaufPreis = kosten / (10 * 378 * wegLänge);
                                 double gesamtKosten = längePreis + wartungKosten + Akku + kaufPreis;
-                                Console.WriteLine("Das ElektroVelo wird sie per Kilometer {0} Franken kosten.", gesamtKosten);
+                                Console.WriteLine("Das Elektrovelo wird sie per Kilometer {0} Franken kosten.", gesamtKosten);
                                 break;
 
                             default:
@@ -155,7 +155,7 @@ namespace Schulweg
                 catch
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Diese eingabe ist ungültig");
+                    Console.WriteLine("Diese Eingabe ist ungültig");
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine("----------------------------------------------------------------------------------------------");
                     Console.ResetColor();
