@@ -104,8 +104,10 @@ Das Programm ist funktional, aber die Berechnung für die Wegkosten haben wir en
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |   |  |       |    |
-| II  |  | | | |
+| I    | Programm fragt nach Auswahl von bestimmten Transportmittel.| Zahlen und andere Zeichen und Wörter  |Eingabe Ungültig |Eingabe Ungültig|
+| II   | Programm fragt nach Eingabe von Wohnort und Zielort | Ungültige Zeichen und Orte|Ungültige Eingabe |Ungültige Eingabe |
+| III  | Programm fragt nach Preis des Transportmittels| Andere Zeichen eingeben als Zahlen| Ungültige Eingabe | Ungültige Eingabe|
+| IV   | Programm fragt nach Neustart und Eingabe eines neuen Transportmittel true/false | Andere Zeichen oder Wörter| Ungülltige Eingabe| Ungültige Eingabe|
 
 
 ## 6) Auswerten
