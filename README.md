@@ -19,6 +19,7 @@ Greub Manuel, Evans Tristan, Manser Alberto
 In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die Informationen der Länge und des Verkehrsmittels, die Kosten für den eigenen Schulweg berechnet
 
 [ProjektSchulwegInformieren.docx](https://github.com/KeinZweitAcc/ProjektSchulweg/files/10155393/ProjektSchulwegInformieren.docx)
+
 Das ist das Word Dokument, indem wir alle unsere Berechnungen hineingeschrieben haben.
 
 
