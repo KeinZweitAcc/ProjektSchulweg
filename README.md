@@ -98,13 +98,13 @@ Somit konnten wir auch Testfall 3.4 nicht realisieren
 
 
 **Fazit**
-
+Das Programm ist funktional, aber die Berechnung für die Wegkosten haben wir entfernt, da es nicht möglich war sie zu integrieren.
 
 ### 5.2 Exploratives Testen
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |  |  |       |    |
+| I    |   |  |       |    |
 | II  |  | | | |
 
 
