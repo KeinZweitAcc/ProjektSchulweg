@@ -67,6 +67,7 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 ## 3) Entscheiden
 * ÖV konnten wir Leider nicht realisieren, da eine Verknüpfung an die SBB Datenbank nicht möglich war.
+Somit konnten wir auch Testfall 3.4 nicht realisieren
 
 ## 4) Realisieren
 
