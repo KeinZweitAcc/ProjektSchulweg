@@ -54,12 +54,15 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | 5.12.2022| Evans| Erstellung der Projektdokumentation (Wird während des erledigen des Auftrages aktualisiert)| 
-| 2.A  | 5.12.2022| Greub | Erstellung der Formel zur Berechnung der Wegkosten der einzelnen Transportmittel| 70' | 
-| 3.A  | 5.12.2022| Manser, Evans| Erstellung des Alpha Programmes| 60' | 
-| 4.A  | 5.12.2022| Greub | Einteilung des Programms in Funktionen| 60' |
-| 5.A  | 5.12.2022| Manser, Greub, Evans| Integrierung von dem Azure Maps System| 80'| 
-| 6.A  | 5.12.2022| Evans, Greub| Code verschönern und allfällige Probleme verbessern| 30'|
+| 1.A  | 5.12.2022| Evans, Greub, Manser | Erstellung der User Storys | 20'|
+| 2.A  | 5.12.2022| Evans, Greub, Manser | Erstellung der Testfälle| 20'|
+| 3.A  | 5.12.2022| Greub, Manser | Erstellung der Formel zur Berechnung der Wegkosten der einzelnen Transportmittel| 70' | 
+| 4.A  | 5.12.2022| Manser, Evans| Erstellung des Alpha Programmes| 60' | 
+| 5.A  | 5.12.2022| Greub, Manser | Einteilung des Programms in Funktionen| 60' |
+| 6.A  | 5.12.2022| Manser, Greub, Evans| Integrierung von dem Azure Maps System| 80'| 
+| 7.A  | 5.12.2022| Evans, Greub, Manser| Code verschönern und allfällige Probleme verbessern| 30'|
+
+
 
 
 ## 3) Entscheiden
@@ -69,12 +72,13 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 29.09.2022 - 05.12.2022| Bis am Ende des Auftrags| 
-| 2.A  | 29.09.2022| Greub | 70'| 60'|
-| 3.A  | 6.09.2022| Manser, Evans | 60'| 60' |
-| 4.A  | 31.10.2022| Greub | 60'| 40'|
-| 5.A  | 07.11.2022 - 21.11.2022| Manser, Greub, Evans| 80'| 120'|
-| 6.A  | 28.11.2022| 30'|  | 
+| 1.A  | 29.09.2022| Evans, Greub, Manser| 20'| 20'|
+| 2.A  | 29.09.2022| Evans, Greub Manser | 20'| 30'|
+| 3.A  | 6.09.2022| Greub, Manser | 70'| 80' |
+| 4.A  | 31.10.2022| Evans, Manser | 60'| 90'|
+| 5.A  | 07.11.2022 | Manser, Greub| 60'| 80'|
+| 6.A  | 28.11.2022| Manser, Greub, Evans| 80'| 120'|
+| 7.A  | 28.11.2022| Evans, Greub, Manser| 30'| 60' |
 
 ## 5) Kontrollieren
 
