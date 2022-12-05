@@ -86,7 +86,14 @@ In diesem Projekt geht es darum, ein Programm zu erstellen, welches durch die In
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |    |    O.K.      |      |
+|1.1|5.12.2022|O.K.| Greub|
+|2.1|5.12.2022|O.K.|Greub |
+|3.1|5.12.2022|O.K.|Greub |
+|3.2|5.12.2022|O.K.|Greub |
+|3.3|5.12.2022|O.K.|Greub |
+|3.4|5.12.2022|Nicht O.K.|Greub|
+|4.1|5.12.2022|O.K.|Greub|
+|5.1|5.12.2022|O.K.|Greub|
 
 
 **Fazit**
